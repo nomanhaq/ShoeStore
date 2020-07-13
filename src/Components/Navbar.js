@@ -14,10 +14,10 @@ function Navbar(props) {
     <header>
         <div className='overlay'></div>
         <nav>
-            <h2>Shop</h2>
+            <h2>Shoe Store</h2>
             <ul>
               <li>< Link  to="/">Home</ Link ></li>
-              <li>< a href="https://www.youtube.com/watch?v=WlZdyBf8fRY">About</ a ></li>
+              <li>< a href="https://www.linkedin.com/in/nomanhaq12/">About</ a ></li>
               <li className="cart">< Link  to="/cart">
     <ion-icon name="basket"></ion-icon>Cart <span>{props.basketProps.basketNumbers}</span>
                 </ Link ></li>
